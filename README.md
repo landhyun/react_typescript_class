@@ -44,3 +44,12 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+***
+
+# 설치 시 에러 방지 🙂
+
+<blockquote>
+npx create-react-app 디렉토리명 --template typescript<br>
+npm i --save-dev @types/styled-components<br>
+npm i styled-components
