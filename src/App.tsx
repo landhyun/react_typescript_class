@@ -1,23 +1,11 @@
-import styled, { keyframes } from "styled-components";
-
-const Wrapper = styled.div`
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-    background-color: ${(props) => props.theme.backgroundColor};
-`;
-
-const Title = styled.h1`
-    color: ${(props) => props.theme.textColor};
-`;
+import Circle from './Cricle';
 
 function App() {
     return (
-      <Wrapper>
-        <Title>Title</Title>
-      </Wrapper>
+      <div>
+        <Circle borderColor="tomato" bgColor="teal"/>
+        <Circle bgColor="tomato" text="I'm here"/>
+      </div>
     );
 }
 
