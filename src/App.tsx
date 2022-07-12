@@ -21,7 +21,7 @@ function App() {
     return (
 		<div>
 		<Container>
-		<H1>theme</H1>
+		<H1>light/dark themne</H1>
         <form onSubmit={onSubmit}>
           	<input type="text" 
 					onChange={onChange}

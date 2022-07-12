@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
 import App from './App';
-//import Form from './Form';
 //import { darkTheme } from './theme';
 import { lightTheme } from './theme';
 
